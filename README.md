@@ -1,6 +1,6 @@
-# CJA License Server
+# License Server
 
-License server used to validate client licenses of CJA product
+License server used to generate and decrypt client licenses
 
 ### Prerequisites
 
@@ -35,6 +35,7 @@ Then install the dependencies with:
 
 
 1. Register an user
+
 ```
 curl --request POST \
   --url http://localhost:5000/register \
